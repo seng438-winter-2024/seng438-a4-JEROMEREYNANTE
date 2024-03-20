@@ -1,4 +1,4 @@
-package org.jfree.data.test;
+package org.jfree.data;
 
 import static org.junit.Assert.*;
 
@@ -689,14 +689,14 @@ public class DataUtilitiesTest extends DataUtilities {
 	            will(returnValue(2)); // Example column count
 	            allowing(values2DMock).getValue(0, 0);
 	            will(returnValue(5.0)); // Example value at row 0, column 0
-	            allowing(values2DMock).getValue(0, 1);
+	            allowing(values2DMock).getValue(1, 0);
 	            will(returnValue(3.0)); // Example value at row 1, column 0
-	            allowing(values2DMock).getValue(0, 2);
+	            allowing(values2DMock).getValue(2, 0);
 	            will(returnValue(null)); // Example value at row 2, column 0
 	        }});
 
 		
-        double result = DataUtilities.calculateRowTotal(values2DMock, 0);
+        double result = DataUtilities.calculateColumnTotal(values2DMock, 0);
 
         // Verify the result
         assertEquals(8.0, result, 0.0001); // With invalid input, a total of zero will be returned.
@@ -735,68 +735,5 @@ public class DataUtilitiesTest extends DataUtilities {
 		 } catch (Exception e) {
 			 assertTrue("Null data argument", e instanceof IllegalArgumentException);
 		 }
-	 }
-	 
-	/*------------------------- equal -------------------------*/
-	 
-	 @Test 
-	 public void testEqual_NominalCase() {
-		 double[][] a = {{1}, {2}};
-		 double[][] b = {{1}, {2}};
-		 
-		 assertTrue(DataUtilities.equal(a, b));
-	 }
-	 
-	 @Test 
-	 public void testEqual_BothNull() {
-		 double[][] a = null;
-		 double[][] b = null;
-		 
-		 assertTrue(DataUtilities.equal(a, b));
-	 }
-	 
-	 @Test 
-	 public void testEqual_TestAisNull() {
-		 double[][] a = null;
-		 double[][] b = {{1}, {2}};
-		 
-		 assertFalse(DataUtilities.equal(a, b));
-	 }
-	 
-	 @Test 
-	 public void testEqual_TestBisNull() {
-		 double[][] a = {{1}, {2}};
-		 double[][] b = null;
-		 
-		 assertFalse(DataUtilities.equal(a, b));
-	 }
-	 
-	 @Test
-	 public void testEqual_DifferentLengths() {
-		 double[][] a = {{1}, {2}, {3}};
-		 double[][] b = {{1}, {2}};
-		 
-		 assertFalse(DataUtilities.equal(a, b));
-	 }
-	 
-	 @Test
-	 public void testEqual_SameLengthDifferentElements() {
-		 double[][] a = {{1}, {2}};
-		 double[][] b = {{1}, {3}};
-		 
-		 assertFalse(DataUtilities.equal(a, b));
-	 }
-	 
-	/*------------------------- clone -------------------------*/
-	 
-	 @Test
-	 public void testClone_NominalCase() {
-		 double[][] expected = {{1}, {2}};
-		 
-		 double [][] actual = DataUtilities.clone(expected);
-		 
-		 assertNotNull(actual);
-		 assertEquals(expected[0][0], actual[0][0], 0.0001);
-		 assertEquals(expected[1][0], actual[1][0], 0.0001);
 	 }
 }
