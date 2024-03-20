@@ -1,0 +1,451 @@
+{
+  "id": "0cfa108f-23cf-462f-9225-279d4d089e0e",
+  "version": "2.0",
+  "name": "Verify Navbar Menu Items",
+  "url": "https://www.tsc.ca",
+  "tests": [{
+    "id": "6ffc0054-48b0-4533-8a7e-e5af5d897fe3",
+    "name": "Verify Logo Link",
+    "commands": [{
+      "id": "419b3665-b5ca-48be-ac68-d9c574c54862",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e75380-4c11-447e-9a50-2580979bc5cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "708x828",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "005eae09-566d-43bb-8891-dfdceea5a265",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_ctlImgTscLogoSm",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_ctlImgTscLogoSm", "id"],
+        ["css=#contentPlaceHolder_ctl83_ctlImgTscLogoSm", "css:finder"],
+        ["xpath=//img[@alt=\"Today's Shopping Choice\"]", "xpath:img"],
+        ["xpath=//img[@id='contentPlaceHolder_ctl83_ctlImgTscLogoSm']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_ctlPanTscLogoSm']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eae7ae43-19eb-4fc5-831d-614c08263d30",
+    "name": "Favourites Navbar",
+    "commands": [{
+      "id": "0d56d581-c0b7-4209-85ba-a24676d06fa1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb60d819-baa9-45dd-b52f-5895a6da6f0e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cc80fd1-f33d-42f8-8116-b601b103470a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.black-header__watch-tsc-text",
+      "targets": [
+        ["css=.black-header__watch-tsc-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl82_pnlBlackHeader']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33dc5d38-0fc6-41ea-a77d-09a0a5a53b11",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.black-header__watch-tsc-text",
+      "targets": [
+        ["css=.black-header__watch-tsc-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl82_pnlBlackHeader']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d705b9d5-a122-4b6a-8907-2b9e0aab84c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b6cffc0-a9c6-4ec0-aa3d-fd92336b3058",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl34_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "64fcebc3-5112-4db6-b52b-04ea79d3b876",
+    "name": "Bag Navbar",
+    "commands": [{
+      "id": "65743bb3-2cc3-4f08-9e10-e9adfc2b6b00",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c630b3a-9940-460f-ad78-95f6eec87795",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1d81b46-c426-465c-b597-f01daa8d6342",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-bag__text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-bag__text", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d636f8bc-0ac2-4807-b2dc-4b3ccb42190e",
+    "name": "Sign In Navbar",
+    "commands": [{
+      "id": "1eee251d-4108-408c-95be-465605a5e31d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "672aeed5-821d-4d7e-bf93-6f5389cffb19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "551x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41ddd4f3-15f8-44d2-99b8-ec18296095f4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bagCounter",
+      "targets": [
+        ["css=.bagCounter", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74e1171e-08ed-4728-b38f-ef2aa21748fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bagCounter",
+      "targets": [
+        ["css=.bagCounter", "css:finder"],
+        ["xpath=//div[@id='tagCartContainer']/a/div/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9497afb9-5933-428c-9eee-046385cfc565",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c9b72d2-1449-41ba-8d90-e7df256f4727",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7676ed48-1abe-4e29-a728-b4fdf0072ebb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68f9902-bd11-4a36-9148-e1ddfbab958c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4be82972-7961-4aee-9019-e8dad2b51a99",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
+      "targets": [
+        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f88136c9-30d7-479b-9463-52b4e71c4f99",
+    "name": "Category Navbar",
+    "commands": [{
+      "id": "ef513f33-841c-405e-88c2-d246f0b1b11f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29297d5a-dac5-4479-8eaf-23df2b0ebf08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1b27051-40d3-41d8-b294-37018694b966",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_0",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_0", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_0", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_0']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_0']/span/span", "xpath:idRelative"],
+        ["xpath=//a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ade37a92-1953-4a76-9fdb-ec582842bb41",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_1",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_1", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_1", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_1']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_1']/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6dbffbf-ff75-4d5f-8d56-4056feac1fb1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_2']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_2']/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bdd1fd-dcda-440b-8408-3ea7d2e7cd92",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_2']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_2']/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86332b6e-a506-454e-8de5-14afd536a11e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_2", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_2']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_2']/span/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c996d2-d82d-43f1-9a13-55660981b09c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_3']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_3']/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d80cc35b-ad69-48a5-84d4-ed89e8a0776d",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_3']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_3']/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dd49f15-2f37-4dee-9a7b-cbd74fd391f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_3", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_3']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_3']/span/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23a50c18-172f-44ab-b3e7-3e927781a916",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_4",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_4", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_4", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_4']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_4']/span/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a12e507-20c5-4ac7-8e31-b003a4354425",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_5",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_5", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_5']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_5']/span/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fea05ece-bda1-4eba-b535-f810253226c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_6']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_6']/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d8b7ec8-25ae-4d25-9d90-abeafbce6e21",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_6']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_6']/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8145d0-601a-4ba6-952c-f66225fa6e0a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_6", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_6']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_6']/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58edd7e6-acf4-4d9e-a547-cb8776bb2fc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_7",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_7", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_7", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_7']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_7']/span/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa84e0cd-1380-4444-bd4e-4a39854b987b",
+      "comment": "",
+      "command": "click",
+      "target": "id=contentPlaceHolder_ctl83_rpMenu_lblTitle_8",
+      "targets": [
+        ["id=contentPlaceHolder_ctl83_rpMenu_lblTitle_8", "id"],
+        ["css=#contentPlaceHolder_ctl83_rpMenu_lblTitle_8", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder_ctl83_rpMenu_lblTitle_8']", "xpath:attributes"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl83_rpMenu_hypItem_8']/span/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6de85d7f-00ba-4a16-a096-bacfd610f470",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6ffc0054-48b0-4533-8a7e-e5af5d897fe3"]
+  }],
+  "urls": ["https://www.tsc.ca/"],
+  "plugins": []
+}
