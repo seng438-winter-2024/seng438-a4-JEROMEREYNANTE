@@ -1,0 +1,875 @@
+{
+  "id": "5b64fe89-cb07-430f-a2ab-5665e7cc6ce8",
+  "version": "2.0",
+  "name": "Page Footer Tests",
+  "url": "https://www.tsc.ca",
+  "tests": [{
+    "id": "f8ddfa18-9913-47d8-97d2-8c8c633a6f61",
+    "name": "Customer Service",
+    "commands": [{
+      "id": "dee8aae6-2321-47ea-94af-3183c834c291",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b28e3f03-ca67-4100-9adc-b1614d9ffcf0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1fb89c4-0b30-4f7a-9593-7cf50712fc13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl82_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f944701c-4851-4d7c-9454-3bbad1e74b88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl82_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0eb7147-2206-4216-9392-648c8b288ac5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Service",
+      "targets": [
+        ["linkText=Customer Service", "linkText"],
+        ["css=.relative:nth-child(1) > .mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(1) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Service')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/customer-service')]", "xpath:href"],
+        ["xpath=//div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Service')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d4156137-ae9d-4c71-adee-ee1c0997b926",
+    "name": "My Account",
+    "commands": [{
+      "id": "1591a11b-0e7c-496d-998f-cfe96de10455",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11bb13b3-7f87-4f29-a3fb-38024cedf759",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a4973fe-5e76-477c-b453-b4c4abdf7dd2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.relative:nth-child(1) > .mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(2) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/customer-service/setting-up-an-account')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "54419194-1f5f-4e58-bf0a-9ada9c9b88dd",
+    "name": "Track Your Order",
+    "commands": [{
+      "id": "f825ffd7-1988-4211-9207-8c5cc6c233c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6775849-21f4-412e-a482-dc6849d19bd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41f3b964-68a2-41a7-81a3-99208468c453",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Track Your Order",
+      "targets": [
+        ["linkText=Track Your Order", "linkText"],
+        ["css=.relative:nth-child(1) > .mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(3) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Track Your Order')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/trackorder')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Track Your Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39146402-b202-4e73-ae48-20b523ebd077",
+    "name": "Email Signup",
+    "commands": [{
+      "id": "3dd782b3-05ff-4346-914d-3544588fa0de",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dc4c817-e5d5-4ecd-8ed1-e0cfe0109daa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55f26aa1-5226-433d-97d5-bc7191b87efe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up For Email",
+      "targets": [
+        ["linkText=Sign Up For Email", "linkText"],
+        ["css=.mb-2\\.5:nth-child(1) > .md3\\3Atext-\\[13px\\]:nth-child(1) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up For Email')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/go/email/signup?source=HP_Landingpage')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up For Email')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2774",
+      "windowTimeout": 2000
+    }, {
+      "id": "7d2a5672-e00e-4f23-ab2b-07cb1a341eca",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2774}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c7b25fc-9e09-491d-99d7-cfb1589495ff",
+    "name": "Contact Us",
+    "commands": [{
+      "id": "b0429065-246d-4fe5-903b-542c0dc48262",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c530a12-ef7f-45ac-ad65-19dcb10b91f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60025a0f-e516-4448-bbbf-5634b41d2077",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.mb-2\\.5:nth-child(1) > .md3\\3Atext-\\[13px\\]:nth-child(2) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/customer-service/contact-info')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "60d2a97f-3baa-44ab-bdc0-f565c619a5bb",
+    "name": "Terms of Use",
+    "commands": [{
+      "id": "1d5f8747-3fe1-4e98-98c8-da022fd37dc6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69c29952-b231-495a-9df7-3426a5a0003a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5f7b731-f2bd-4e03-8874-1c081f638e56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms of Use",
+      "targets": [
+        ["linkText=Terms of Use", "linkText"],
+        ["css=.relative:nth-child(3) .md3\\3Atext-\\[13px\\]:nth-child(1) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms of Use')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/go/aboutus/aboutustandc')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms of Use')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9cfd40-b347-4c3e-968f-90401e769785",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,56.66666793823242)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "38d14ebe-c9a6-4715-805f-a4d969d9dfe7",
+    "name": "Privacy Policy",
+    "commands": [{
+      "id": "a5801956-c34e-4b7d-bc9d-ae68b45a7db6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "490f7ac3-9313-4a6c-9f03-3fb62ef22c7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bba5fc03-78d3-4b5e-b4a7-38af02e5998d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy Policy",
+      "targets": [
+        ["linkText=Privacy Policy", "linkText"],
+        ["css=.relative:nth-child(3) .md3\\3Atext-\\[13px\\]:nth-child(2) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy Policy')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/go/aboutus/aboutusprivacy')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab2bf5df-d717-43d1-b96a-db0d8cba7bf7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,585.3666381835938)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e8481156-05f2-422e-b743-6c74e51915f6",
+    "name": "Become a Vendor",
+    "commands": [{
+      "id": "87a89e84-9042-4844-aa73-3b48a747fa32",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eac3ec19-5bcd-45cb-9350-404f5eb4451a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31758024-fe37-422a-8a97-7698aa9db7e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Become a Vendor",
+      "targets": [
+        ["linkText=Become a Vendor", "linkText"],
+        ["css=.relative:nth-child(3) .md3\\3Atext-\\[13px\\]:nth-child(3) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Become a Vendor')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/go/aboutus/aboutusvendor')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Become a Vendor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a6a27a4-ea05-4ba1-9f59-99fd1c6ce021",
+    "name": "More About TSC",
+    "commands": [{
+      "id": "cbdfcaa1-36f1-4cfa-af2b-5b61a1bc15c6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ea21e33-444d-4b0b-b811-c39c85f72331",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9d7d0c8-be95-4afd-8ca3-72ae042f050f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More About TSC",
+      "targets": [
+        ["linkText=More About TSC", "linkText"],
+        ["css=.mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(4) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'More About TSC')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/go/aboutus/aboutus')])[4]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More About TSC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a905f27b-c5ec-4f6b-8a1a-ff7fe280694a",
+    "name": "Shop by Brand",
+    "commands": [{
+      "id": "53f24e40-8cd8-4646-bc66-39eb92546f08",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7889bb3-3a9f-4618-9f41-148161a5b737",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da5c2e94-a8d5-46e0-b372-5cdf968608b9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shop by Brand",
+      "targets": [
+        ["linkText=Shop by Brand", "linkText"],
+        ["css=.\\'mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(1) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop by Brand')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/brand')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shop by Brand')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "724016e2-a369-494d-8bae-a49626515d1d",
+    "name": "Channel Finder",
+    "commands": [{
+      "id": "565f7608-4028-4a41-88a1-2a370e2bb404",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a9b5046-1501-46b9-9248-35432c889173",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2d75ca4-88fa-4a5e-988e-9c831744dc58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Channel Finder",
+      "targets": [
+        ["linkText=Channel Finder", "linkText"],
+        ["css=.\\'mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(2) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Channel Finder')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/channelfinder')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Channel Finder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "10cbbfe8-4348-4422-9a87-d5117a65fc49",
+    "name": "Meet the Hosts",
+    "commands": [{
+      "id": "54d4e33a-106e-4580-8e74-d1aa867d193e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f25d200-af84-405b-9ee4-b6b7fd9e54e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b8a7519-877b-43fa-bf32-2628bd59433a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Meet the Hosts",
+      "targets": [
+        ["linkText=Meet the Hosts", "linkText"],
+        ["css=.\\'mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(3) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'Meet the Hosts')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[4]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/hosts')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Meet the Hosts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fc9b9016-4963-4f61-a6ac-a35e7366a48d",
+    "name": "TSC Marketplace",
+    "commands": [{
+      "id": "f0603a04-26f1-41d4-8439-4bb8fb51f50b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead7b8a1-3122-453a-a6c6-3deed2bcec75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c53a35c0-4464-4e79-afe8-f9c9f56e2e14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TSC Marketplace",
+      "targets": [
+        ["linkText=TSC Marketplace", "linkText"],
+        ["css=.\\'mb-2\\.5 > .md3\\3Atext-\\[13px\\]:nth-child(4) > .hover\\3Aunderline", "css:finder"],
+        ["xpath=//a[contains(text(),'TSC Marketplace')]", "xpath:link"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div[2]/div/div/div[4]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/go/aboutus/marketplace')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TSC Marketplace')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f7f1a1e3-ec12-4393-843f-61c5a87f2497",
+    "name": "Social Media Links",
+    "commands": [{
+      "id": "117f5e02-181b-4f32-a0d5-b57ce7669d66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c07d03b3-2a9d-4755-9e29-d74ef57797e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd804059-a715-4f3a-8dd9-73ee3cff0475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(1) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(1) > img", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1493",
+      "windowTimeout": 2000
+    }, {
+      "id": "b8a1b885-8f6a-47bc-985e-9195638597b8",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ac39fb4-e077-4677-9abc-342ca775b1eb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1493}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2a022cf-22a8-4d25-a158-4a21fd6da99a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8c3cf91-bc49-4802-b3f4-63f012eaa37b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(2) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(2) > img", "css:finder"],
+        ["xpath=//img[@alt='Twitter']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4902",
+      "windowTimeout": 2000
+    }, {
+      "id": "95ccbee5-42af-4c6c-ac41-55015227063c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4902}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc2c09b6-5ff4-436e-a4c9-95b177756dc6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58274221-63c2-4221-bab7-b1e621ed3ae5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(3) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(3) > img", "css:finder"],
+        ["xpath=//img[@alt='TikTok']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win951",
+      "windowTimeout": 2000
+    }, {
+      "id": "274463fa-a1c0-4cbf-ae34-b98ff26dc9fc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win951}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a46f5d1-99aa-4f05-9a4a-4b21bd4ed62c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79a11cf7-b9b7-4591-940a-12d7b6d0b7e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(4) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(4) > img", "css:finder"],
+        ["xpath=//img[@alt='Instagram']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a[4]/img", "xpath:idRelative"],
+        ["xpath=//a[4]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win31",
+      "windowTimeout": 2000
+    }, {
+      "id": "eb4e0c71-0a59-43ca-b8ed-1baf89d5c6e7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win31}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f57fda91-3d7b-4650-abf0-8c2383a33c1f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9003e475-30c5-4fd0-8dd3-2ecaebec79ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(5) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Youtube']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a[5]/img", "xpath:idRelative"],
+        ["xpath=//a[5]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2745",
+      "windowTimeout": 2000
+    }, {
+      "id": "f59d765b-783a-4700-a7fd-1c14b054ee1e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2745}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57e2c239-360e-4cb9-a497-c498c5fb51a2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2730f42-aa10-4499-9d13-73959658fde3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Am-0:nth-child(6) > img",
+      "targets": [
+        ["css=.md\\3Am-0:nth-child(6) > img", "css:finder"],
+        ["xpath=//img[@alt='Pinterest']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[6]/div/div/a[6]/img", "xpath:idRelative"],
+        ["xpath=//a[6]/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9725",
+      "windowTimeout": 2000
+    }, {
+      "id": "327383ee-a2ee-4807-aecd-9c7e98338576",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9725}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5be2f0b-2bbb-4a7b-8742-7f58b036f6e2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d18bac29-9d61-4598-ac22-dfa02a37c880",
+    "name": "Language",
+    "commands": [{
+      "id": "1479b513-1355-495c-9f84-5a98a8423e44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e88ce7d9-a53d-406c-b73d-125c37bacd0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7434fac5-3f9c-47df-a500-de70f87bf8eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-language",
+      "targets": [
+        ["css=.item-language", "css:finder"],
+        ["xpath=//img[@alt='french-icon']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54627db3-bedc-4e9d-895a-97b02a24dc04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-language",
+      "targets": [
+        ["css=.item-language", "css:finder"],
+        ["xpath=//img[@alt='english-icon']", "xpath:img"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c2b3011f-0e25-4b24-9221-7ad636c43fd3",
+    "name": "Send us feedback",
+    "commands": [{
+      "id": "9625bf8f-a2af-455d-b294-e391ba6264fe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dfc56aa-1a55-4102-9e14-0e4548c9b614",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "016a4fad-35e4-4a55-acfd-f8f5450dbce9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(4) .max-md\\3Apl-2\\.5",
+      "targets": [
+        ["css=.flex:nth-child(4) .max-md\\3Apl-2\\.5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[4]/a/span", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9612",
+      "windowTimeout": 2000
+    }, {
+      "id": "bb8b6c47-e208-449c-8104-9d0e6b17b0ab",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "324c00ae-d8c7-405e-9df7-eb4c564d074f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9612}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af38eee0-9270-4619-b1ef-421f84f4c6ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a8430057-4b27-45a1-96c9-76fdcd59ae83",
+    "name": "Download the App",
+    "commands": [{
+      "id": "c287d9b8-b66e-4c45-8bd5-251e1d80478c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a58b6d9f-37b0-4a71-8389-e355a46e1638",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6df44035-1ce6-4835-9772-68222eebe036",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(3) .max-md\\3Apl-2\\.5",
+      "targets": [
+        ["css=.flex:nth-child(3) .max-md\\3Apl-2\\.5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "448edb83-cbff-489f-8308-17440ebe94ca",
+    "name": "Gift Card",
+    "commands": [{
+      "id": "d36a89dc-3048-445d-a9aa-1e637024bb41",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20ee06dd-673d-4e2e-99a1-a213f7677356",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82a228e9-2f3e-4837-b3ea-e3441fd6c72c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Amin-w-\\[80px\\] > .max-md\\3Apl-2\\.5",
+      "targets": [
+        ["css=.md\\3Amin-w-\\[80px\\] > .max-md\\3Apl-2\\.5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8c2be834-30a5-4b63-b01e-048849124aed",
+    "name": "Credit Card",
+    "commands": [{
+      "id": "bd0f0d7b-0899-4ba0-8dbf-a25ed595b6d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a97ac9c-f547-4467-a7b6-40d6dd5cd2a1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1407x837",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c6f37e0-c2b3-4518-9115-bd62527caabe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(1) > .items-center > .max-md\\3Apl-2\\.5",
+      "targets": [
+        ["css=.flex:nth-child(1) > .items-center > .max-md\\3Apl-2\\.5", "css:finder"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[3]/div[3]/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ce0c3f31-7d63-4c22-8f37-5e20d83d213e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tsc.ca/"],
+  "plugins": []
+}
