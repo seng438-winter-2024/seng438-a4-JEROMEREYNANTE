@@ -199,30 +199,6 @@
         ["xpath=//div[3]/div/a/span", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "f68f9902-bd11-4a36-9148-e1ddfbab958c",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
-      "targets": [
-        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
-        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
-        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
-        ["xpath=//picture/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4be82972-7961-4aee-9019-e8dad2b51a99",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
-      "targets": [
-        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
-        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
-        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
-        ["xpath=//picture/img", "xpath:position"]
-      ],
-      "value": ""
     }]
   }, {
     "id": "f88136c9-30d7-479b-9463-52b4e71c4f99",
@@ -412,18 +388,6 @@
       ],
       "value": ""
     }, {
-      "id": "95df53a4-8bc4-47f8-9b70-8fccd5ad873c",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
-      "targets": [
-        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
-        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
-        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
-        ["xpath=//picture/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "54117dfa-862f-4a2c-aaa7-08637517a62a",
       "comment": "",
       "command": "click",
@@ -434,30 +398,6 @@
         ["xpath=//button[@id='secondary-navigation-mobile-hamburger']", "xpath:attributes"],
         ["xpath=//div[@id='contentPlaceHolder_ctl83_pnlHeaderWithLogoAndSearch']/section/div/div[3]/button", "xpath:idRelative"],
         ["xpath=//div[3]/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3a257e7a-a569-4640-9380-96bbda073cb4",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
-      "targets": [
-        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
-        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
-        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
-        ["xpath=//picture/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "67e1f41a-848a-4b4e-9853-45a0f258abc5",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=#contentPlaceHolder_ctl87_ctlLinkBanner .block",
-      "targets": [
-        ["css=#contentPlaceHolder_ctl87_ctlLinkBanner .block", "css:finder"],
-        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
-        ["xpath=//a[@id='contentPlaceHolder_ctl87_ctlLinkBanner']/picture/img", "xpath:idRelative"],
-        ["xpath=//picture/img", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -563,56 +503,9 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "abbdfc3b-6b76-4fae-bf1c-70d0069acee5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.right-5",
-      "targets": [
-        ["css=.right-5", "css:finder"],
-        ["xpath=//html[@id='RWD']/body/div[8]/div/div/button", "xpath:idRelative"],
-        ["xpath=//div[8]/div/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'x')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "bf84855d-0a06-4712-a8c4-072796e880d5",
-      "comment": "",
-      "command": "click",
-      "target": "css=.notice-card__close > svg",
-      "targets": [
-        ["css=.notice-card__close > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
       "id": "8571257c-b1e2-47b3-8809-66e61f1119af",
       "comment": "",
       "command": "click",
-      "target": "css=.item__remove",
-      "targets": [
-        ["css=.item__remove", "css:finder"],
-        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
-        ["xpath=//div[4]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "55e09e5c-cfa1-40ee-9f9d-a2bb7a948762",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.item__remove",
-      "targets": [
-        ["css=.item__remove", "css:finder"],
-        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
-        ["xpath=//div[@id='shopping-bag']/div/div/div[3]/div/div[4]/button", "xpath:idRelative"],
-        ["xpath=//div[4]/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "db7ca8e7-6028-490f-84e7-d964b790d873",
-      "comment": "",
-      "command": "mouseOut",
       "target": "css=.item__remove",
       "targets": [
         ["css=.item__remove", "css:finder"],
@@ -741,18 +634,6 @@
       "id": "67bfc45b-2cfe-4921-9cee-4b6aa9b79c29",
       "comment": "",
       "command": "click",
-      "target": "css=.remove",
-      "targets": [
-        ["css=.remove", "css:finder"],
-        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
-        ["xpath=//div[@id='shopping-bag']/div/div/div[4]/div/div/div[2]/button", "xpath:idRelative"],
-        ["xpath=//div[4]/div/div/div[2]/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "41fe2a52-935a-45db-ba33-d953bd0df97e",
-      "comment": "",
-      "command": "mouseOver",
       "target": "css=.remove",
       "targets": [
         ["css=.remove", "css:finder"],
