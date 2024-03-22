@@ -9,6 +9,11 @@ public class RangeTest {
     private Range anotherExampleRange;
     private Range nullRange;
     
+    private Range shiftedRangePositve;
+    private Range barelyShiftedRangePositive;
+    private Range shiftedRangeNegative;
+    private Range barelyShiftedRangeNegative;
+    
     /*------------------------- Before stuff ------------------------*/
     
     @BeforeClass public static void setUpBeforeClass() throws Exception {
@@ -19,6 +24,13 @@ public class RangeTest {
     	exampleRange = new Range(-3, 5);  	
     	anotherExampleRange = new Range(-14, 11);
     	nullRange = new Range(Double.NaN, Double.NaN);
+    	
+    	// added test setup for mutations test cases
+    	shiftedRangePositve = Range.shift(exampleRange, 1);
+    	barelyShiftedRangePositive = Range.shift(exampleRange, 0.0001);
+    	
+		shiftedRangeNegative = Range.shift(exampleRange, -1);
+		barelyShiftedRangeNegative = Range.shift(exampleRange, -0.0001);
     }
     
     /*------------------------- After stuff -------------------------*/
@@ -292,7 +304,7 @@ public class RangeTest {
     	assertTrue("The lower bound should be null", Double.isNaN(nullRange.getLowerBound()));
     }
     
-
+    
     /*------------------------- contains -------------------------*/
     
     @Test
@@ -317,6 +329,11 @@ public class RangeTest {
     	assertTrue("Range should contain -14", anotherExampleRange.contains(-14));
     	assertTrue("Range should contain -13.9999", anotherExampleRange.contains(-13.9999));
     	assertFalse("Range should not contain -14.0001", anotherExampleRange.contains(-14.0001));
+    	
+    	Range positiveLowerBound = new Range(1, 5);
+    	assertTrue("Range should contain 1", positiveLowerBound.contains(1));
+    	assertTrue("Range should contain 1.0001", positiveLowerBound.contains(1.0001));
+    	assertFalse("Range should not contain 0.9999", positiveLowerBound.contains(0.9999));
     }
     
     @Test
@@ -337,6 +354,7 @@ public class RangeTest {
     	assertFalse("Range should not contain anything", nullRange.contains(-5));
     }   
 
+    
     /*------------------------- getLength -------------------------*/
     
 	@Test
@@ -371,8 +389,6 @@ public class RangeTest {
 	@Test
 	public void testContains_OnUpperBound() {
 	    assertTrue("Range should contain upper bound", exampleRange.contains(exampleRange.getUpperBound()));
-	    
-	    
 	}
 	@Test
 	public void testContains_DecimalsInRange() {
@@ -399,7 +415,60 @@ public class RangeTest {
 	public void testGetLength_NullRange() {
 	    assertTrue("The length of null range should be NaN", Double.isNaN(nullRange.getLength()));
 	}
-
+	
+	// Tests to increase mutation percentage -----------------------------------------------------------------
+	
+	@Test
+	public void testGetLowerBound_PositiveDelta() {
+		assertEquals("The lower bound must be -2", -2, shiftedRangePositve.getLowerBound(), .000000001d);
+		assertEquals("The lower bound must be -2.9999", -2.9999, barelyShiftedRangePositive.getLowerBound(), .000000001d);
+	}
+	
+	@Test
+	public void testGetLowerBound_NegativeDelta() {
+		assertEquals("The lower bound must be -4", -4, shiftedRangeNegative.getLowerBound(), .000000001d);
+		assertEquals("The lower bound must be -3.0001", -3.0001, barelyShiftedRangeNegative.getLowerBound(), .000000001d);
+	}
+	
+	@Test
+	public void testGetUpperBound_PositiveDelta() {
+		assertEquals("The upper bound must be 6", 6, shiftedRangePositve.getUpperBound(), .000000001d);
+		assertEquals("The upper bound must be 5", 5.0001, barelyShiftedRangePositive.getUpperBound(), .000000001d);	
+	}
+	
+	@Test
+	public void testGetUpperBound_NegativeDelta() {
+		assertEquals("The upper bound must be 4", 4, shiftedRangeNegative.getUpperBound(), .000000001d);
+		assertEquals("The upper bound must be 4.9999", 4.9999, barelyShiftedRangeNegative.getUpperBound(), .000000001d);
+	}
+	
+	@Test
+	public void testGetLength_ShiftedRange() {
+		assertEquals("The length must be 8", 8, shiftedRangePositve.getLength(), .000000001d);
+		assertEquals("The length must be 8", 8, barelyShiftedRangePositive.getLength(), .000000001d);
+		assertEquals("The length must be 8", 8, shiftedRangeNegative.getLength(), .000000001d);
+		assertEquals("The length must be 8", 8, barelyShiftedRangeNegative.getLength(), .000000001d);
+	}
+	
+	@Test
+	public void testGetCentralValue_PositiveDelta() {
+		assertEquals("The central value must be 2", 2, shiftedRangePositve.getCentralValue(), .000000001d);
+		assertEquals("The central value must be 1.0001", 1.0001, barelyShiftedRangePositive.getCentralValue(), .000000001d);
+	}
+	
+	@Test
+	public void testGetCentralValue_NegativeDelta() {
+		assertEquals("The central value must be 0", 0, shiftedRangeNegative.getCentralValue(), .000000001d);
+		assertEquals("The central value must be 0.9999", 0.9999, barelyShiftedRangeNegative.getCentralValue(), .000000001d);
+	}
+	
+	@Test
+	public void testContains_ShiftedRange() {
+		assertTrue("0 should be in <-2, 6>", shiftedRangePositve.contains(0));
+		assertTrue("0 should be in <-2.9999, 5.0001>", barelyShiftedRangePositive.contains(0));
+		assertTrue("0 should be in <-4, 4>", shiftedRangeNegative.contains(0));
+		assertTrue("0 should be in  <-3.0001, 4.9999>", barelyShiftedRangeNegative.contains(0));
+	}
 }
 
 
