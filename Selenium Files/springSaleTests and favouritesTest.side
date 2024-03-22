@@ -1,0 +1,689 @@
+{
+  "id": "65c7e32c-38e2-43e7-b186-07387f0cfb2e",
+  "version": "2.0",
+  "name": "ass4",
+  "url": "https://www.tsc.ca",
+  "tests": [{
+    "id": "6490a115-610a-446c-9805-ab7d01ce3d48",
+    "name": "testSpringSaleShoes",
+    "commands": [{
+      "id": "45001910-b7d1-4596-9b13-391134ccd1b2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dea48c55-7580-40fa-b0b9-7dee834b8a52",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3363ee-515e-4b59-a09d-c0ec7c72f399",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "685f91fc-0e6f-4458-976d-de0dc30dd075",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fbe9a0a-b4e6-412e-a393-54e8fdfcb44c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59843665-8ac5-4183-9d52-5f3fc0c618f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(7) .img-responsive",
+      "targets": [
+        ["css=.slick-slide:nth-child(7) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Spring Style: Shoes']", "xpath:img"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/div/div/div[7]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d0a52c1-8e92-4a1b-bc1a-992e2162eb99",
+    "name": "testSpringSaleJackets",
+    "commands": [{
+      "id": "2ecfba52-1fcf-4e3a-b2d1-18cca2cd0a89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "288eb33c-a568-4628-91a8-7b6bb2d9600e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67d0520a-1694-44c5-be1a-1298dda2f32b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "067dce17-50ab-4b23-8359-daed7b135dbe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc48c427-e832-402b-9e49-461e40673446",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(9) .img-responsive",
+      "targets": [
+        ["css=.slick-slide:nth-child(9) .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='Spring Style Event: Jackets'])[2]", "xpath:img"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/div/div/div[9]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac8b8a0e-f0ee-4b8e-a774-0a9435427bad",
+    "name": "testSpringSaleHandbags",
+    "commands": [{
+      "id": "64a31423-eaba-4ac2-aaa3-dbca882d56e7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd133e98-c11f-49d5-8d00-474267e5195f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e735cf29-2ce5-4ef4-9c6b-243e70a2ed51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.black-header__watch-tsc",
+      "targets": [
+        ["css=.black-header__watch-tsc", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl86_pnlBlackHeader']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Watch TSC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aead2477-d6b6-433d-8ebb-31f92ca2da0f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.black-header__watch-tsc",
+      "targets": [
+        ["css=.black-header__watch-tsc", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl86_pnlBlackHeader']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Watch TSC')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea9f7b66-6591-4360-8125-2a3938994332",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10eb4c24-bdc7-42af-b0b3-f591a71699bb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97afcda-aee6-45ec-8f42-42ca0e5da90c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc67aef1-f091-41c5-b919-ee17fe561ad2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,113)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeb78062-ff61-41ad-87d1-c677a2ae2f97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(5) .img-responsive",
+      "targets": [
+        ["css=.slick-slide:nth-child(5) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Spring Style Event: Handbags']", "xpath:img"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/div/div/div[5]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d14c1eb8-50c0-4006-9088-fc01ce2cb448",
+    "name": "testSpringSaleTops",
+    "commands": [{
+      "id": "52f82a61-138f-4b56-89d3-583a9b29da55",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d94c0b16-6cbe-4d7a-9301-df447fa84264",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ec71a74-c9e8-4bda-9684-7330d3f689d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f53e39a6-69ed-46a6-8df5-d0e6dc7c840f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a24335-3258-47d2-9e97-9bddfd4b7591",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fabbf9d1-b76a-45ac-837a-2f0d635464a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(6) .img-responsive",
+      "targets": [
+        ["css=.slick-slide:nth-child(6) .img-responsive", "css:finder"],
+        ["xpath=//img[@alt='Spring Style Event: Tops']", "xpath:img"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/div/div/div[6]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "788b9415-2d66-49c4-b5fa-d16cce7878d2",
+    "name": "testSpringSaleBottoms",
+    "commands": [{
+      "id": "9396037e-8d3c-4285-afd1-124cf50a1798",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "199a6bda-0850-4bc1-aeeb-9d766b2ad265",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x872",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff1c31b1-ee8f-450c-a50f-5def4aef80b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-visible > #contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0 b",
+      "targets": [
+        ["css=.swiper-slide-visible > #contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0 b", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2/b", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2/b", "xpath:position"],
+        ["xpath=//b[contains(.,'SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "766bd12b-c901-483e-9e3c-c9a26ad9705a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.swiper-slide-visible > #contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0 b",
+      "targets": [
+        ["css=.swiper-slide-visible > #contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0 b", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2/b", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2/b", "xpath:position"],
+        ["xpath=//b[contains(.,'SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e56f9951-533e-47a6-b916-8a46cb6df73c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-visible .black-header__promotion-text",
+      "targets": [
+        ["css=.swiper-slide-visible .black-header__promotion-text", "css:finder"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl86_rptrCenterPromoText_hlCenterPromotionUrl_0']/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/a/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'SPRING REFRESH | SHOP STYLISH NEW ARRIVALS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f669f060-ee1f-403e-b48c-5839dc51a389",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.max-w-1200",
+      "targets": [
+        ["css=.max-w-1200", "css:finder"],
+        ["xpath=//img[@alt='Promo Code: SHOP15']", "xpath:img"],
+        ["xpath=//a[@id='contentPlaceHolder_ctl64_ctlLinkBanner']/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b30f74b1-4550-448b-a77a-00fdb76f40e0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,612)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4ceda80-88eb-49ca-99af-aea84f025bfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f26f308-070a-44d3-9f29-81f42a0c9f67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(8) .img-responsive",
+      "targets": [
+        ["css=.slick-slide:nth-child(8) .img-responsive", "css:finder"],
+        ["xpath=(//img[@alt='Spring Style Event: Bottoms'])[2]", "xpath:img"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl73_panImageAnchorCarouselData']/div/div/div[8]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "961501e5-fa6f-4c25-96d0-3e60a0aa134f",
+    "name": "testAddFavourites",
+    "commands": [{
+      "id": "34573d46-e401-450c-88c2-d4a517197ebe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846430fa-23cb-449b-a4f5-190515381c1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x932",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3614be82-12ad-4c8b-9e2d-cfd91d9085f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e86539f3-95d8-43b4-90ae-893af5408a0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38fdd6f4-706e-4de0-8f60-b3a3917e7d6e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "nathanante36@gmail.com"
+    }, {
+      "id": "dd523990-24f7-4247-9e10-2a9c450c7ed7",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5561d60-a405-4aa9-a3a8-7b1223858de6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Kamikaze102198!"
+    }, {
+      "id": "20bb4a42-03a7-4619-a8c6-054d04d9bf52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tagSignin",
+      "targets": [
+        ["css=.tagSignin", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//span[@id='contentPlaceHolder']/div/div[2]/div/div/div/div/div/div/signin-app/div/div/ng-component/div/div/div/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd8a4afe-49d0-423e-976d-8cef32d3b21e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-shop-now",
+      "targets": [
+        ["css=.btn-shop-now", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop now')]", "xpath:link"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[4]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[22]", "xpath:href"],
+        ["xpath=//div[4]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed8825c-ddf8-40ac-88fa-f93c75c37e0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f23d1df-becf-4bf6-86ee-88c9c5978e77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "053aca21-6c8b-4e03-a4b5-00fb507440d5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary-navigation__rhs-account-icon",
+      "targets": [
+        ["css=.secondary-navigation__rhs-account-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d31673f3-6f10-45c3-8dae-6e4872ea5f75",
+      "comment": "",
+      "command": "type",
+      "target": "id=autocomplete-0-input",
+      "targets": [
+        ["id=autocomplete-0-input", "id"],
+        ["css=#autocomplete-0-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-0-input']", "xpath:attributes"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[2]/div/div/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "book"
+    }, {
+      "id": "8ff36fc4-9bc3-4d62-9d8b-5ed9af94d10e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aa-SubmitButton > svg",
+      "targets": [
+        ["css=.aa-SubmitButton > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "46c28de3-77c7-4080-af6b-1295f9487bed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.prp__relative:nth-child(2) .product-card__header-like",
+      "targets": [
+        ["css=.prp__relative:nth-child(2) .product-card__header-like", "css:finder"],
+        ["xpath=//div[@id='product-results-page']/section/div/div[2]/div[2]/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Like Paul Henderson Signed - \"The Goal of My Life\" Hardcover Book')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2536167-d590-4cb2-a3c8-7b4f1bf40a9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl52_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263d5fa6-490c-40fe-9949-7e542c089917",
+      "comment": "",
+      "command": "click",
+      "target": "id=img686518120",
+      "targets": [
+        ["id=img686518120", "id"],
+        ["css=#img686518120", "css:finder"],
+        ["xpath=//img[contains(@src,'https://item.tscimg.ca/TSC/6/68/686/0x0/686518.jpg?impolicy=M')]", "xpath:img"],
+        ["xpath=//img[@id='img686518120']", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[3]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5b4ded9a-34e3-4243-86ef-86dc155a1f07",
+    "name": "testRemoveFavourite",
+    "commands": [{
+      "id": "fa3df4ea-e856-45d9-ad58-aeac0653b0e1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c9c871f-0577-46b7-8eda-80f17d9663bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1243x932",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c88f5b2-3eea-464e-bcfc-83a89ed870c1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=g:nth-child(1) > g > rect",
+      "targets": [
+        ["css=g:nth-child(1) > g > rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7011129-c4a0-47b7-a7c8-d1c5e8e2c363",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=g:nth-child(1) > g > rect",
+      "targets": [
+        ["css=g:nth-child(1) > g > rect", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "515871ab-7fb9-4d0a-952f-af586f2f822a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl87_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ecba600-44c6-4aba-90ff-6000b78d16a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=img686518120",
+      "targets": [
+        ["id=img686518120", "id"],
+        ["css=#img686518120", "css:finder"],
+        ["xpath=//img[contains(@src,'https://item.tscimg.ca/TSC/6/68/686/0x0/686518.jpg?impolicy=M')]", "xpath:img"],
+        ["xpath=//img[@id='img686518120']", "xpath:attributes"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[3]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab90d56-f90d-4d63-bf33-78376be2aebe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-description__add-to-bag__favorite:nth-child(6) .hovblack",
+      "targets": [
+        ["css=.pdp-description__add-to-bag__favorite:nth-child(6) .hovblack", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3187f948-be20-4d19-9b68-bd2047616914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary-navigation__rhs-favorites-text",
+      "targets": [
+        ["css=.secondary-navigation__rhs-favorites-text", "css:finder"],
+        ["xpath=//div[@id='contentPlaceHolder_ctl42_pnlHeaderWithLogoAndSearch']/section/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c119a9ab-810a-4652-aa4f-ef3add2ea726",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-shop-now",
+      "targets": [
+        ["css=.btn-shop-now", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop now')]", "xpath:link"],
+        ["xpath=//myaccount-app-ng[@id='myaccount-app-ng']/div/div[2]/ng-component/div[2]/div[4]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[22]", "xpath:href"],
+        ["xpath=//div[4]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "46c37a79-3510-48c9-b5ad-2aa054785e25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.tsc.ca/"],
+  "plugins": []
+}
